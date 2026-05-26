@@ -1,11 +1,22 @@
+@media only screen and (max-width:320px) {
+      #hero {
+        height: 400px !important;
+    }
+    .navbar-dark .navbar-toggler-icon {
+    filter: invert(1);
+}
+}
+/*********************************************
+             SAMLL-SIZE : 375PX
+**********************************************/
 @media only screen and (max-width:375px) {
     .toggle{
-        color: rgb(216, 17, 17) !important;
-        /* background-color: white !important; */
+        /* color: rgb(216, 17, 17) !important; */
+        background-color: white !important;
     }
     .toggle span{
         color: white !important;
-        background-color: aqua !important;
+        /* background-color: aqua !important; */
     }
     .navbar {
         height: auto !important;
@@ -28,8 +39,9 @@
     }
 
     .hero-contain a {
+        width: 50%;
+        display: block;
         text-align: center;
-        margin-left: 100px;
 
     }
 
@@ -42,6 +54,38 @@
     }
 }
 
+/*********************************************
+            MOBILE L-SIZE : 425PX
+**********************************************/
+
+@media only screen and (max-width:425px) {
+    #hero {
+        height: 400px !important;
+    }
+  .hero-contain h2 {
+        text-align: center;
+    }
+
+    .hero-contain p {
+        text-align: center;
+    }
+
+    .hero-contain a {
+     
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        transform: translate(50%  ,-60%);
+        margin-top: 10px;
+        text-align: center;
+
+    }
+
+}
+/*********************************************
+            TABLATE  : 425PX
+**********************************************/
 @media only screen and (max-width:768px) {
     .navbar {
         height: auto !important;
