@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height:100%;
+}
+.navbar{
+    width: auto;
+    height: 72px !important;
+    background: #111827;
+    color: white !important;
+}
+.nav-box{
+    width: 150px !important;
+    height: 25px !important;
+    color: #9CC026;
+    background-color: #9CC026;
+    padding: 0px !important;
+    margin:0px !important;
+}
+.strated-btn{
+    background-color: #9CC026 !important;
+    color: white !important;
+}
+/************* hero-section ***************/
+#hero{
+    height: 600px;
+    background-image: url('image/hero.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.hero-contain h2{
+    word-spacing:0.8 ;
+    letter-spacing: 1;
+    text-transform: capitalize;
+}
+.hero-contain a{
+    background-color: #9CC026 !important;
+    color: white;
+}
+/*********** hero-section end **************/
+
+/*********** Career-section ***************/
+#career{
+    background-color: #F9FAFB;
+}
+
+#career-box-active{
+    background-color: #9CC026;
+    color: white;
+}
+
+#career-box-active:hover{
+    background-color:white;
+    color:#2e7d32;
+}
+.career-box{
+     height: 100%;
+     background-color: white;
+     padding: 10px 10px;    
+     border-radius: 10px;
+    transition: 0.3s;
+    height: 130px;
+
+}
+.career-box:hover{
+    transform: translateY(-10px);
+    background-color: #9CC026;
+    color: white !important;
+    box-shadow: 0 10px 25px  #8da540;
+}
+.career-box i{
+    font-size: 30px;
+    color: #2e7d32;
+}
+
+.landing-btn{
+   width: 100%;
+   background-color: #9CC026 !important;
+   color: white;
+   border: none;
+   margin: 5px;
+   border: none !important;
+}
+/***********Career-section end **************/
+.career-contain{
+    height: auto !important;
+    background-color: #1F2937;
+    color: white;
+}
+.leaf i{
+    color: #9CC026;
+    font-size: 50px;
+    font-weight: 1.33 !important;
+    opacity: 0.5;
+    font-weight: 100 !important;
+}
+.card-body{
+    height: 200px;
+    padding: 10px !important;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.card-body:hover{
+     
+      transform: rotate(-6deg);
+     box-shadow: 0px 2px 14px  #ebfabb;
+}
+.career-card-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    opacity: 0.3;
+    margin: 10px;
+}
+.career-card-icon i{
+    font-size: 20px;
+}
+.career-card-btn{
+     color: white !important;
+    background-color: #9CC026 !important;
+     transition: 0.9s;
+
+}
+.career-card-btn:hover{
+    /* background-color: white !important; */
+    /* color: #9CC026 !important; */
+    transform:translateY(10px);
+}
+/***********Training-section  **************/
+.training-card{
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.8;
+  
+}
+.training-card:hover{
+     transform:scale(1.05);
+}
+
+.training-img1,.training-img2,.training-img3{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.training-img1{  
+    background-image: url('image/training/Gradient.png');   
+}
+
+.training-img2{  
+    background-image: url('image/training/Gradient\ \(1\).png');   
+}
+.training-img3{  
+   background-image: url('image/training/Gradient\ \(2\).png');
+  
+}
+.training-containt ul {
+    margin-top: 15px !important;
+    padding: 10px !important;
+    list-style: none !important;
+}
+.training-containt span{
+    font-size: 20px;
+    padding: 10px;
+    color: #9CC026;
+}
+.training-btn{
+    color: white !important;
+    margin: 15px;
+    background-color: #9CC026 !important;
+      width: calc(100% - 40px);
+
+    /* padding: 12px; */
+    border-radius: 10px;
+}
+
+/***********Training-section-end **************/
+
+/***********Career-Section *******************/
+#career_journey{
+    background-color:  #F9FAFB;   
+}
+.career_jorny_card{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+   transition: 0.8s;
+    /* padding-bottom: 30px; */
+    /* border: 1px dotted orange !important; */
+}
+.career_jorny_card:hover{
+   transform: translateY(10px);
+
+}
+.card-img img{
+    width: 100%;
+    height: 235px;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+    transition: 0.8s;
+}
+.card-img img:hover{
+    transform:translateY(10px);
+}
+.career_jorny_containt {
+    padding: 10px;
+    text-align: start;
+    padding-left: 20px;
+}
+.career_jorny_containt span{
+    color: #9CC026;
+    font-weight: 600;
+  
+}
+.career_jorny_containt p{
+    color: #6c757d;
+}
+.career_jorny_btn{
+    width: calc(100% - 35px);
+    border: 1px solid  #E4E4E7 !important;
+    transition: 0.8s;
+}
+.career_jorny_btn:hover{
+    background-color: #9CC026;
+    color: white !important;
+    border: none;
+    transform: translateY(-10px) !important;
+}
+.view-stories{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 20px;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+.view-stories-btn{
+    background-color: #9CC026 !important;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: 0.8s;
+    /* border: 1px solid red; */
+}
+.view-stories-btn:hover{
+    transform: translateY(10px);
+}
+/***********Career-Section end ****************/
+/***********Blog-Section *********************/
+.blog-contain{
+    height: 450px;
+    /* border: 1px dotted orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.8s;
+}
+.blog-contain:hover{
+    transform: translateY(10px);
+}
+
+.contain-img1,.contain-img2 , .contain-img3 {
+    width: 100%;
+    height: 200px !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.contain-img1{
+     background-image: url('image/blog/placeholder.svg\ fill\ \(1\).png');
+}
+.contain-img2{
+    background-image: url('image/blog/placeholder.svg\ fill.png');
+}
+.contain-img3{
+    background-image: url('image/blog/placeholder.svg\ \(1\).png');
+}
+.blog-btn{
+    margin: 10px;
+    background-color: #9CC026 !important;
+    color: white !important;
+}
+.blog-details{
+    padding: 10px;
+}
+.blog-red-btn{
+    width: 100% !important;
+    border: 1px solid #E4E4E7 !important;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.blog-red-btn:hover{
+    background-color: #9CC026;
+    color: white !important;
+    border: none;
+}
+
+.view-all-post{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-all-post a{
+    background-color: #9CC026;
+    color: white !important;
+    transition: 0.8s;
+}
+.view-all-post a:hover{
+    transform: translateY(10px);
+}
+/***********Blog-Section end*****************/
+#footer{
+    height: 300px !important;
+    background-color: #111827;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-btn1{
+    background-color: #9CC026 !important;
+    color: white !important;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+.foot-btn1:hover{
+    background-color: white !important;
+    color: rgb(92, 90, 90) !important;
+    transform: translateY(-10px);
+    /* border: 1px solid  #E4E4E7 !important; */
+    
+}
+.foot-btn2{
+    background-color: white !important;
+    color:  rgb(92, 90, 90) !important;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+.foot-btn2:hover{
+    background-color: #9CC026 !important;
+    color:  white !important;
+    transform: translateY(-10px);
+}
+

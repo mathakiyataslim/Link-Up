@@ -1,0 +1,64 @@
+@media only screen and (max-width:375px) {
+    .toggle{
+        color: rgb(216, 17, 17) !important;
+        /* background-color: white !important; */
+    }
+    .toggle span{
+        color: white !important;
+        background-color: aqua !important;
+    }
+    .navbar {
+        height: auto !important;
+    }
+
+    .hero-btn {
+        display: none;
+    }
+
+    #hero {
+        height: 400px !important;
+    }
+
+    .hero-contain h2 {
+        text-align: center;
+    }
+
+    .hero-contain p {
+        text-align: center;
+    }
+
+    .hero-contain a {
+        text-align: center;
+        margin-left: 100px;
+
+    }
+
+    #footer {
+        max-height: 400px !important;
+    }
+
+    .foot-btn1 {
+        margin-bottom: 15px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        height: auto !important;
+    }
+    #blog{
+        /* color: red; */
+        padding: 0px 0px !important;
+    }
+      #footer {
+        height: 300px !important;
+        padding: 0px;
+        /* background: #000; */
+    }
+
+    #footer .row{
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+}
